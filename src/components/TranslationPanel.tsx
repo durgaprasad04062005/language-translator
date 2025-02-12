@@ -63,7 +63,7 @@ export const TranslationPanel = () => {
 
   return (
     <div className="container max-w-6xl mx-auto p-4 space-y-8 animate-fade-in">
-      <Card className="p-6 space-y-6">
+      <Card className="p-6 space-y-6 bg-white/95 backdrop-blur-sm">
         <h2 className="text-2xl font-semibold text-center mb-8">
           English to Indian Languages Translator
         </h2>
