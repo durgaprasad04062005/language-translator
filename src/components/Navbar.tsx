@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className="container max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Globe className="h-6 w-6 text-translation-primary" />
-          <span className="text-xl font-semibold">translation.io</span>
+          <span className="text-xl font-semibold">Translation.io</span>
         </div>
       </div>
     </nav>
