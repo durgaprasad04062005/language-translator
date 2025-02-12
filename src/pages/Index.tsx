@@ -1,11 +1,15 @@
 
 import { TranslationPanel } from "@/components/TranslationPanel";
+import { Navbar } from "@/components/Navbar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <TranslationPanel />
-    </div>
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-gray-50 pt-24 pb-8">
+        <TranslationPanel />
+      </div>
+    </>
   );
 };
 
